@@ -91,13 +91,13 @@ This project contributes to:
 
 **Loss functions:**
 
-| Loss | Weight | Purpose |
-|---|---|---|
-| L1 (Reconstruction) | 100 | Pixel-wise accuracy |
-| Edge Loss | 50 | Preserve wall/boundary sharpness |
-| Perceptual Loss | 10 | High-level structural similarity (VGG features) |
-| Total Variation (TV) | 0.1 | Smoothness / noise reduction |
-| Adversarial (GAN) | — | Realism via discriminator feedback |
+| Loss Function | Purpose |
+|--------------|---------|
+| L1 (Reconstruction) | Ensures pixel-wise reconstruction accuracy between the generated heightmap and the target. |
+| Edge Loss | Preserves architectural boundaries such as walls, doors, and edges. |
+| Perceptual Loss | Maintains high-level structural similarity using deep feature representations. |
+| Total Variation (TV) | Reduces noise and promotes smoothness in the generated heightmaps. |
+| Adversarial (GAN) | Encourages the generator to produce realistic outputs through discriminator feedback. |
 
 
 ### Viewing the Output
