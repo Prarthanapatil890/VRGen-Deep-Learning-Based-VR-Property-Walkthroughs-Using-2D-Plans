@@ -17,13 +17,13 @@ This project contributes to:
 
 ## Features
 
-- 📐 Fully automated 2D floor plan → 3D mesh pipeline
-- 🧠 Enhanced U-Net generator with attention mechanisms
-- 🎯 PatchGAN discriminator for locally realistic outputs
-- 🧹 Post-processing: denoising, wall enhancement, floor leveling, morphological cleanup
-- 🕶️ VR-ready `.glb` export for immersive walkthroughs
-- ⚙️ Multi-loss training strategy (L1 + Edge + Perceptual + Total Variation + GAN loss)
-- 💻 Supports both GPU (CUDA) training and CPU inference
+-  Fully automated 2D floor plan → 3D mesh pipeline
+-  Enhanced U-Net generator with attention mechanisms
+-  PatchGAN discriminator for locally realistic outputs
+-  Post-processing: denoising, wall enhancement, floor leveling, morphological cleanup
+-  VR-ready `.glb` export for immersive walkthroughs
+-  Multi-loss training strategy (L1 + Edge + Perceptual + Total Variation + GAN loss)
+-  Supports both GPU (CUDA) training and CPU inference
 
 ### Main Components
 
